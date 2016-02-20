@@ -34,7 +34,7 @@ module.exports = function(grunt) {
         json.icons.forEach(function (value) {
           grunt.file.write('icons/' + json.prefix + value.name + '.sublime-snippet',
             ['<snippet>',
-              '<content><![CDATA[' + json.prefix + value.name + '${0: icon}]]></content>',
+              '<content><![CDATA[<i class="' + json.prefix + value.name + '${0: icon}"></i>$1]]></content>',
               '<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->',
               '<tabTrigger>ionic-icon-' + value.name + '</tabTrigger>',
               '<!-- Optional: Set a scope to limit where the snippet will trigger -->',
