@@ -1,0 +1,27 @@
+<project basedir="." default="all" name="Sublime Text package to Textmate bundle transformer">
+	<include file="../textmate-to-sublime-converter/subl2tm.xml" />
+	
+	<target name="all">
+		<subl2tm srcdir="Sublime Text" destdir="TextMate" />
+	</target>
+	
+	<target name="css">
+		<subl2tm-snippet destdir="TextMate/Snippets/html" flatten="true" convert-to-tabs="true">
+			<fileset dir="css/" includes="**/*.sublime-snippet" />
+		</subl2tm-snippet>
+	</target>
+
+        <target name="js">
+                <subl2tm-snippet destdir="TextMate/Snippets/js" flatten="true"
+convert-to-tabs="true">
+                        <fileset dir="js/" includes="**/*.sublime-snippet" />
+                </subl2tm-snippet>
+        </target>
+
+        <target name="icons">
+                <subl2tm-snippet destdir="TextMate/Snippets/icons" flatten="true"
+convert-to-tabs="true">
+                        <fileset dir="icons/" includes="**/*.sublime-snippet" />
+                </subl2tm-snippet>
+        </target>
+</project>
