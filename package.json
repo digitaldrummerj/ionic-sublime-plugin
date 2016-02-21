@@ -4,7 +4,10 @@
     "build": "grunt build"
   },
   "devDependencies": {
+    "convert-snippets-to-vscode": "^1.0.1",
     "grunt": "^0.4.5",
+    "grunt-shell": "^1.1.2",
+    "load-grunt-tasks": "^3.4.0",
     "request": "^2.51.0"
   }
 }

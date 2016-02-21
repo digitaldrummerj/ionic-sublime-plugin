@@ -3,7 +3,7 @@
 <ion-toggle ng-model="" toggle-class="toggle-default">Toggle Label</ion-toggle>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>ionic-toggle</tabTrigger>
+  <tabTrigger>ionictoggle</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html</scope>
 </snippet>

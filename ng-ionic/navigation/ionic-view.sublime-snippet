@@ -1,13 +1,13 @@
 <snippet>
   <content><![CDATA[
-<ion-view view-title="Title">
+<ion-view view-title="$1">
   <ion-content>
-    Content Here
+    $0
   </ion-content>
 </ion-view>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>ionic-view</tabTrigger>
+  <tabTrigger>ionicview</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html</scope>
 </snippet>
