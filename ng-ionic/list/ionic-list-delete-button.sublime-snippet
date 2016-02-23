@@ -3,7 +3,7 @@
 <ion-list show-delete="${1:shouldShowDelete}">
   <ion-item>
     <ion-delete-button class="ion-minus-circled"></ion-delete-button>
-    ${2:Hello, list item!}
+    ${0}
   </ion-item>
 </ion-list>
 <ion-toggle ng-model="${1:shouldShowDelete}">

@@ -2,13 +2,13 @@
   <content><![CDATA[
 <ion-footer-bar align-title="left" class="bar-assertive">
   <div class="buttons">
-    <button class="button">Left Button</button>
+    <button class="button" ng-click="doSomething()">Left Button</button>
   </div>
-  <h1 class="title">Title!</h1>
-  <div class="buttons" ng-click="doSomething()">
-    <button class="button">Right Button</button>
+  <h1 class="title">${1:Title}</h1>
+  <div class="buttons">
+    <button class="button" ng-click="doSomething()">Right Button</button>
   </div>
-</ion-footer-bar>
+</ion-footer-bar>${0}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>ionicfooterbar</tabTrigger>

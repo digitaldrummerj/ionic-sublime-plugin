@@ -4,6 +4,7 @@
   pulling-text="${1:Pull to refresh...}"
   on-refresh="${2:doRefresh}()">
 </ion-refresher>
+${0}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>ionicrefresher</tabTrigger>

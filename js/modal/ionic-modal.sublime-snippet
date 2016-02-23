@@ -1,0 +1,33 @@
+<snippet>
+  <content><![CDATA[  
+  // Make Sure to Add the \$ionicModal as Dependency to the Controller
+\$ionicModal.fromTemplateUrl('${1:templatefile}.html', {
+    scope: \$scope
+  }).then(function(modal) {
+    \$scope.${2:modalname} = modal;
+  });
+  \$scope.openModal = function() {
+    \$scope.${2:modalname}.show();
+  };
+  \$scope.closeModal = function() {
+    \$scope.${2:modalname}.hide();
+  };
+  //Cleanup the modal when we're done with it!
+  \$scope.\$on('\$destroy', function() {
+    \$scope.${2:modalname}.remove();
+  });
+  // Execute action on hide modal
+  \$scope.\$on('modal.hidden', function() {
+    // Execute action
+  });
+  // Execute action on remove modal
+  \$scope.\$on('modal.removed', function() {
+    // Execute action
+  });
+  ${0}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ionicjsmodal</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

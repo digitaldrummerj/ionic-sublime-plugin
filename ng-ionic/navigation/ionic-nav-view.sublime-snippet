@@ -2,7 +2,7 @@
   <content><![CDATA[
 <ion-nav-bar></ion-nav-bar>
 <ion-nav-view animation="slide-left-right">
-  <!-- Center content -->
+  <!-- Center content -->${0}
 </ion-nav-view>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

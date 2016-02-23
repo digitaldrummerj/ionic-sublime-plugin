@@ -1,13 +1,15 @@
 <snippet>
   <content><![CDATA[
+  // Make Sure to Add the \$ionicPopup as Dependency to the Controller
 \$ionicPopup.prompt({
   title: '${1:Title}',
   template: '${2:Template}',
-  inputType: '${3:password}',
+  inputType: '${3:string}',
   inputPlaceholder: '${4:Placehoder Text}'
 }).then(function(res) {
-  console.log('Your password is', res);
+  console.log('You Entered', res);
 });
+${0}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>ionicjspopup:prompt</tabTrigger>

@@ -1,9 +1,9 @@
 <Query Kind="Statements" />
 
-var src = @"C:\personal\ionic\ionic-sublime-plugin\css";
+var src = @"C:\personal\vscode-extensions\ionic2-extension\snippets";
 var dest = @"";
 
-var files = Directory.GetFiles(src, "*.sublime-snippet", SearchOption.AllDirectories);
+var files = Directory.GetFiles(src, "*.json", SearchOption.TopDirectoryOnly);
 foreach(var file in files)
 {
 	file.Dump();

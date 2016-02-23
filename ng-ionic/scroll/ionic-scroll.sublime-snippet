@@ -5,7 +5,7 @@
   <div style="width: ${5:5000}px; height: ${6:5000}px; background: url('${6:https://avatars0.githubusercontent.com/u/2650146?v=2&s=460}') repeat">
   </div>
 
-</ion-scroll>
+</ion-scroll>${0}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>ionicscroll</tabTrigger>

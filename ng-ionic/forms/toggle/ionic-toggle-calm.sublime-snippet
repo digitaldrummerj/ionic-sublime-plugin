@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-<ion-toggle ng-model="${1:airplaneMode}" toggle-class="toggle-calm">${2:Airplane Mode}</ion-toggle>
+<ion-toggle ng-model="${1:airplaneMode}" toggle-class="toggle-calm">${2:Airplane Mode}</ion-toggle>${0}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>ionictoggle:calm</tabTrigger>

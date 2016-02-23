@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-<ion-item>${1:Item!}</ion-item>
+<ion-item>${0}</ion-item>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>ionicitem</tabTrigger>

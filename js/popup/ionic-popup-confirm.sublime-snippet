@@ -1,11 +1,12 @@
 <snippet>
   <content><![CDATA[
+  // Make Sure to Add the \$ionicPopup as Dependency to the Controller
 \$scope.showConfirm = function() {
-  var confirmPopup = \$ionicPopup.confirm({
-    title: '${1:Title}',
-    template: '${2:Its Content}'
+  var ${1:PopupVariableName} = \$ionicPopup.confirm({
+    title: '${2:Title}',
+    template: '${3:Its Content}'
   });
-  confirmPopup.then(function(res) {
+  ${1:PopupVariableName}.then(function(res) {
     if(res) {
       console.log('You are sure');
     } else {
@@ -13,6 +14,7 @@
     }
   });
 };
+${0}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>ionicjspopup:confirm</tabTrigger>

@@ -34,7 +34,7 @@ module.exports = function(grunt) {
 
         var iconReadme = [];
         iconReadme.push('| Icons' + Array(31).join(" ") + '| Snippet Code' + Array(41 - "Snippet Code".length).join(" ") + '|');
-        iconReadme.push("|" + Array(36).join("-") + '| :' + Array(41).join("-") + ':|');
+        iconReadme.push("|" + Array(37).join("-") + '| :' + Array(39).join("-") + ':|');
         
         json.icons.forEach(function (value) {
           grunt.file.write('icons/name/' + json.prefix + value.name + '.sublime-snippet',
@@ -57,7 +57,7 @@ module.exports = function(grunt) {
             
             //36
             //41
-            iconReadme.push('| ' + value.name + Array(36 - value.name.length).join(" ") +'| ' + value.name.replace(/-/g,'') + Array(41-(value.name.replace(/-/g,'')).length).join(" ") + '|');
+            iconReadme.push('| ' + value.name + Array(36 - value.name.length).join(" ") +'| ionicIcon' + value.name.replace(/-/g,'') + Array(41-('ionicIcon' + value.name.replace(/-/g,'')).length).join(" ") + '|');
         });
         
         grunt.file.write('icons/readme.md', iconReadme.join('\n'));

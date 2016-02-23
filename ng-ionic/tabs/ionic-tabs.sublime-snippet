@@ -14,7 +14,7 @@
     ${6:<!-- Tab 3 content -->}
   </ion-tab>
 
-</ion-tabs>
+</ion-tabs>${0}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>ionictabs</tabTrigger>

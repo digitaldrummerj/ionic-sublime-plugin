@@ -5,19 +5,27 @@
 // Show the action sheet
 var hideSheet = \$ionicActionSheet.show({
   buttons: [
-    { text: '<b>Share</b> This' },
-    { text: 'Move' }
+    { text: '${1:ButtonOneText}' },
+    { text: '${2:ButtonTwoText}' }
   ],
   destructiveText: 'Delete',
-  titleText: 'Modify your album',
+  titleText: '${3:Title}',
   cancelText: 'Cancel',
   cancel: function() {
     // add cancel code..
   },
+  destructiveButtonClicked: function(){
+    // add delete code
+  },
   buttonClicked: function(index) {
+    // add code to do something when button clicked.  
+    // index is the button index so you can figure out which one was clicked
+    
+    // return true to close actionsheet 
     return true;
   }
 });
+${0}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>ionicjsactionsheet</tabTrigger>

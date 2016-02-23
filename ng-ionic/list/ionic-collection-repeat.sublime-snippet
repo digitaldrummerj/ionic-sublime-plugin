@@ -9,7 +9,7 @@
       ng-style="{height: getItemHeight(${2:item} , \$index)}">
       {{${2:item}}}
     </div>
-  </div>
+  </div>${0}
 </ion-content>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

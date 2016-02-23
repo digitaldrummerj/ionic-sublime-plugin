@@ -2,7 +2,7 @@
   <content><![CDATA[
 <ion-nav-back-button class="button-clear">
   <i class="ion-arrow-left-c"></i> Back
-</ion-nav-back-button>
+</ion-nav-back-button>${0}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>ionicnavback</tabTrigger>

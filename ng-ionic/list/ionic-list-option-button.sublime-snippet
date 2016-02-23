@@ -2,10 +2,10 @@
   <content><![CDATA[
 <ion-list>
   <ion-item>
-    ${1:I love kittens!}
+    ${1:Text}
     <ion-option-button class="button-positive">${2:Share}</ion-option-button>
     <ion-option-button class="button-assertive">${3:Edit}</ion-option-button>
-  </ion-item>
+  </ion-item>${0}
 </ion-list>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

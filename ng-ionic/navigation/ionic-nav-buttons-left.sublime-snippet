@@ -1,10 +1,10 @@
 <snippet>
   <content><![CDATA[
 <ion-nav-buttons side="left">
-  <button class="button" ng-click="doSomething()">
-    I'm a button on the left of the navbar!
+  <button class="button" ng-click="${1:ButtonAction}">
+    ${2:ButtonText}
   </button>
-</ion-nav-buttons>
+</ion-nav-buttons>${0}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>ionicnavbuttons:left</tabTrigger>

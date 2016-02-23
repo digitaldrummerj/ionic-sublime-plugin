@@ -1,6 +1,8 @@
 <snippet>
   <content><![CDATA[
+//Make sure to put it in a finally block so that it also calls it even if there is an error, else you may get into an infinite loop
 \$scope.\$broadcast('scroll.infiniteScrollComplete');
+${0}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>ionicbroadcastinfinitescroll</tabTrigger>

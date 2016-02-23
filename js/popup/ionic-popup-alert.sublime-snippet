@@ -1,14 +1,16 @@
 <snippet>
   <content><![CDATA[
+  // Make Sure to Add the \$ionicPopup as Dependency to the Controller
 \$scope.showAlert = function() {
-  var alertPopup = \$ionicPopup.alert({
-    title: '${1:Popup Title}',
-    template: '${2:Its Content}'
+  var ${1:PopupVariableName} = \$ionicPopup.alert({
+    title: '${2:Popup Title}',
+    template: '${3:Its Content}'
   });
-  alertPopup.then(function(res) {
-    console.log('${3:Thank you for not eating my delicious ice cream cone}');
+  ${1:PopupVariableName}.then(function(res) {
+    console.log('${4:Message}');
   });
 });
+${0}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>ionicjspopup:alert</tabTrigger>

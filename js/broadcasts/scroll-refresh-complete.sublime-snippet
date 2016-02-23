@@ -1,5 +1,6 @@
 <snippet>
   <content><![CDATA[
+//Make sure to put it in a finally block so that it also calls it even if there is an error else the refresher won't collapse back 
 \$scope.\$broadcast('scroll.refreshComplete');
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

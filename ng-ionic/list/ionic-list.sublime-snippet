@@ -2,7 +2,7 @@
   <content><![CDATA[
 <ion-list>
   <ion-item ng-repeat="${1:item} in ${2:items}">
-
+    ${0}
   </ion-item>
 </ion-list>
 ]]></content>

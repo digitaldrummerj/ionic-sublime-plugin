@@ -2,11 +2,11 @@
   <content><![CDATA[
 <ion-tab
   title="${1:Tab!}"
-  icon="my-icon"
-  href="#/${2:tab/tab-link}"
+  icon="${2:Icon}"
+  href="#/${3:tab/tab-link}"
   on-select="onTabSelected()"
   on-deselect="onTabDeselected()">
-</ion-tab>
+</ion-tab>${0}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>ionictab</tabTrigger>

@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-<ion-checkbox ng-model="${1:isChecked}">${2:Label}</ion-checkbox>
+<ion-checkbox ng-model="${1:isChecked}">${2:Label}</ion-checkbox>${0}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>ioniccheckbox</tabTrigger>

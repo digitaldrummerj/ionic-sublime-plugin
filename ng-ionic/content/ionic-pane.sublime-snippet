@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 <ion-pane>
-  ${1:Challenge Accepted! :P}
+  ${0}
 </ion-pane>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
