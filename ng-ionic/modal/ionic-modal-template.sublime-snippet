@@ -1,9 +1,16 @@
 <snippet>
   <content><![CDATA[
-<ion-item>${0}</ion-item>
+  <ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">${1:Title}</h1>
+  </ion-header-bar>
+  <ion-content>
+    ${0}
+  </ion-content>
+</ion-modal-view>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>i1_item</tabTrigger>
+  <tabTrigger>i1_modal_html</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html</scope>
 </snippet>

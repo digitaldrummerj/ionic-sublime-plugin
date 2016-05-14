@@ -5,7 +5,7 @@
 </button>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>ioniccssbuttonclear:dark</tabTrigger>
+  <tabTrigger>i1_cssbuttonclear_dark</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html</scope>
 </snippet>

@@ -5,7 +5,7 @@
 </ion-nav-bar>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>ionicnavbar</tabTrigger>
+  <tabTrigger>i1_navbar</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html</scope>
 </snippet>

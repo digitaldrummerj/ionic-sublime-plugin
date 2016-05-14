@@ -37,7 +37,7 @@
 </div>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>ioniccsscard:showcase</tabTrigger>
+  <tabTrigger>i1_csscard_showcase</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html</scope>
 </snippet>

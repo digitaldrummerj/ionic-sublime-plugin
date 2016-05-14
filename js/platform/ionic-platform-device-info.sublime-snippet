@@ -4,7 +4,7 @@ var deviceInformation = ionic.Platform.device();
 ${0}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>ionicjsplatformdeviceinfo</tabTrigger>
+  <tabTrigger>i1_jsplatformdeviceinfo</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.js</scope>
 </snippet>

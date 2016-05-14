@@ -4,7 +4,7 @@ var currentPlatform = ionic.Platform.platform();
 ${0}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>ionicjsplatformcurrent</tabTrigger>
+  <tabTrigger>i1_jsplatformcurrent</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.js</scope>
 </snippet>

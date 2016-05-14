@@ -41,7 +41,7 @@ module.exports = function(grunt) {
             ['<snippet>',
               '<content><![CDATA["' + json.prefix + value.name + ' icon";$0]]></content>',
               '<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->',
-              '<tabTrigger>ionicIcon' + value.name.replace(/-/g, '') + '</tabTrigger>',
+              '<tabTrigger>i1_Icon' + value.name.replace(/-/g, '') + '</tabTrigger>',
               '<!-- Optional: Set a scope to limit where the snippet will trigger -->',
               '<!-- <scope></scope> -->',
             '</snippet>'].join(''));
@@ -50,14 +50,14 @@ module.exports = function(grunt) {
             ['<snippet>',
               '<content><![CDATA[<i class="' + json.prefix + value.name + ' icon"></i>$0]]></content>',
               '<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->',
-              '<tabTrigger>ionicIcon' + value.name.replace(/-/g, '') + '</tabTrigger>',
+              '<tabTrigger>i1_Icon' + value.name.replace(/-/g, '') + '</tabTrigger>',
               '<!-- Optional: Set a scope to limit where the snippet will trigger -->',
               '<!-- <scope></scope> -->',
               '</snippet>'].join(''));
             
             //36
             //41
-            iconReadme.push('| ' + value.name + Array(36 - value.name.length).join(" ") +'| ionicIcon' + value.name.replace(/-/g,'') + Array(41-('ionicIcon' + value.name.replace(/-/g,'')).length).join(" ") + '|');
+            iconReadme.push('| ' + value.name + Array(36 - value.name.length).join(" ") +'| i1_Icon' + value.name.replace(/-/g,'') + Array(41-('i1_Icon' + value.name.replace(/-/g,'')).length).join(" ") + '|');
         });
         
         grunt.file.write('icons/readme.md', iconReadme.join('\n'));
